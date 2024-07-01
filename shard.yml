@@ -1,0 +1,17 @@
+name: cr-odbc
+version: 0.1.0
+
+authors:
+  - Dávid Seres <dseres001@gmail.com>
+
+targets:
+  cr-odbc:
+    main: src/cr-odbc.cr
+
+crystal: '>= 1.12.2'
+
+license: MIT
+
+dependencies:
+  odbc:
+    github: naqvis/crystal-odbc
